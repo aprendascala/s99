@@ -2,9 +2,9 @@ package br.com.aprendascala.s99.ex1;
 
 import org.junit.Test;
 import org.junit.Assert
-import Exercicio2._
+import Exercicio._
 
-class Exercicio1Test {
+class ExercicioTest {
 
   @Test
   def deveDevolverOUltimoElementoDaLista = {
