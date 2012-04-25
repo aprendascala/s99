@@ -2,7 +2,7 @@ package br.com.aprendascala.s99.ex2;
 
 import org.junit.Test;
 import org.junit.Assert
-import Exercicio2._
+import Exerciocio3._
 
 class Exercicio1Test {
 
