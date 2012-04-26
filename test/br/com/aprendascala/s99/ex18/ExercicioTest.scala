@@ -1,7 +1,6 @@
 package br.com.aprendascala.s99.ex18;
 
-import org.junit.Test;
-import org.junit.Assert
+import org.junit.{Test, Assert}
 
 import Exercicio._
 
