@@ -8,7 +8,7 @@ import Exercicio._
 class ExercicioTest {
 
   @Test
-  def deveEmpacotarALista = {
+  def deveDuplicarALista = {
     Assert.assertEquals(List('a, 'a, 'b, 'b, 'c, 'c, 'c, 'c, 'd, 'd),
       duplicate(List('a, 'b, 'c, 'c, 'd)))
     Assert.assertEquals(List('a, 'a), duplicate(List('a)))
