@@ -7,8 +7,7 @@ version := "0.1-SNAPSHOT"
 scalaVersion := "2.9.2"
 
 libraryDependencies ++= Seq(
-  "junit" % "junit" % "4.10" % "test",
-   "com.novocode" % "junit-interface" % "0.8" % "test"
+  "org.scalatest" %% "scalatest" % "1.6.1"
 )
 
 scalacOptions ++= Seq("-encoding", "UTF-8", "-deprecation", "-unchecked")
