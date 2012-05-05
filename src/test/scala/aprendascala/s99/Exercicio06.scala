@@ -8,7 +8,7 @@ class Exercicio06 extends Exercicios {
     false
   }
 
-  exercicio("Deve Verificar Se A Lista Eh Um Palidromo") {
+  exercicio("Descubra se a lista é um palindromo") {
     ehPalindromo(List(1, 2, 3, 2, 1)) should equal(true)
     ehPalindromo(List(1, 2, 2, 1)) should equal(true)
     ehPalindromo(List(1)) should equal(true)
