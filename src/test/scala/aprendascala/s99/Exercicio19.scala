@@ -7,7 +7,7 @@ class Exercicio19 extends Exercicios {
   def rotate(n : Int, list : List[Symbol]) = {
   }
 
-  exercicio("Deve Remover Os Enesimos Elementos Da Lista") {
+  exercicio("Rotacione uma lista N elementos para a esquerda") {
     rotate(3, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k)) should
       equal(List('d, 'e, 'f, 'g, 'h, 'i, 'j, 'k, 'a, 'b, 'c))
 
